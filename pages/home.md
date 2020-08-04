@@ -3,18 +3,16 @@ layout: layouts/home.njk
 title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-eleventyNavigation:
-  key: Home
-  order: 0
+
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+# Crow Valley
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+<img src="static/img/paintings/BogieMillRoad.jpg?nf_resize=fit&w=960">
+<a href="http://jonathanferraragallery.com" target="_blank" rel="noreferrer noopener">Jonathan Ferrara Gallery</a>
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+400 Julia Street
+New Orleans, LA 70130
 
-Or click the button below to deploy your own copy of this project to Netlify.
+Opens March 3, 2018
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
