@@ -7,7 +7,7 @@
 					<img src="{{ post.data.image }}" alt="{{ post.data.summary }}">
 				{% endif %}
 			</a>
-			<a href="{{ post.url | url }}">
+			<a class="image-title" href="{{ post.url | url }}">
 				{% if post.data.title %}
 					{{ post.data.title }}
 				{% else %}

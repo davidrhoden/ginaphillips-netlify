@@ -9,7 +9,7 @@ permalink: /
 # Crow Valley
 
 <img src="static/img/paintings/BogieMillRoad.jpg" style="width: 100%;" alt="Bogie Mill Road, a painting by Gina Phillips, from the show Crow Valley at Jonathan Ferrara Gallery, 2018.">
-<a href="http://jonathanferraragallery.com" target="_blank" rel="noreferrer noopener">Jonathan Ferrara Gallery</a>
+<a class="image-title" href="http://jonathanferraragallery.com" target="_blank" rel="noreferrer noopener">Jonathan Ferrara Gallery</a>
 
 400 Julia Street
 New Orleans, LA 70130
