@@ -98,6 +98,11 @@ a.image-title {
         margin: 50px;
     }
 
+    header {
+        padding: 0;
+        text-align: left;
+    }
+
     #container {
         margin: 0 auto;
         width: 960px;
