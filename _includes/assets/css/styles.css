@@ -11,7 +11,7 @@ body {
 }
 
 #content {
-    padding: 0 25px 25px;
+    padding: 0 2em 2em;
 }
 
 #content img {
@@ -57,7 +57,7 @@ header a {
 
 header em {
     margin: 0;
-    font-size: 30px;
+    font-size: 2em;
     font-style: normal;
     line-height: 1;
 }
@@ -83,8 +83,7 @@ header nav ul li a.active {
 }
 
 footer {
-    padding: 15px;
-    font-size: 12px;
+    padding: 1em;
     text-align: center;
 }
 
@@ -93,9 +92,9 @@ a.image-title {
     margin: .5em 0 2em;
 }
 
-@media only screen and (min-width: 960px)  {
+@media only screen and (min-width: 60em)  {
     body {
-        margin: 50px;
+        margin: 3em;
     }
 
     header {
@@ -105,12 +104,12 @@ a.image-title {
 
     #container {
         margin: 0 auto;
-        width: 960px;
+        width: 60em;
     }
 
     #content {
         display: block;
-        padding: 25px 0;
+        padding: 1.5em 0;
         background: #fff;
     }
 
@@ -133,13 +132,10 @@ a.image-title {
 
     header nav ul li {
         float: left;
-        margin-left: 20px;
+        margin-left: 1em;
     }
 
     header nav ul li a {
         display: block;
-        margin-top: 4px;
-        line-height: 22px;
     }
-
 }
