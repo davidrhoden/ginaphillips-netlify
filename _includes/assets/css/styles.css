@@ -94,7 +94,11 @@ header nav ul li a.active {
     text-decoration: underline;
 }
 
-#footer {
+article img {
+    width: 100%;
+}
+
+footer {
     padding: 15px;
     font-size: 12px;
     text-align: center;
