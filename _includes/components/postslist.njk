@@ -4,23 +4,16 @@
 
 			<a href="{{ post.url | url }}">
 				{% if post.data.image %}
-					<img src="{{ post.data.image }}" alt="{{ post.data.excerpt }}">
+					<img src="{{ post.data.image }}" alt="{{ post.data.summary }}">
 				{% endif %}
 			</a>
-			<h3>
-				<a href="{{ post.url | url }}">
-					{% if post.data.title %}
-						{{ post.data.title }}
-					{% else %}
-						Untitled
-					{% endif %}
-				</a>
-			</h3>
-			{% if post.data.summary %}
-				<p>
-					{{ post.data.summary }}
-				</p>
-			{% endif %}
+			<a href="{{ post.url | url }}">
+				{% if post.data.title %}
+					{{ post.data.title }}
+				{% else %}
+					Untitled
+				{% endif %}
+			</a>
 		</article>
 	{% endfor %}
 </section>
