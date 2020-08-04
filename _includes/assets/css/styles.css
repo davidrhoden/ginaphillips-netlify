@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    background: #fff;
 }
 
 #container {
@@ -15,38 +18,40 @@ body {
     width: 100%;
 }
 
-#header {
+header {
     padding: 25px 20px 20px;
 }
 
-#header h1 {
+header h1 {
     margin-bottom: 1rem;
     font-size: 40px;
 }
 
-#header nav {
+header nav {
     float: none; 
     display: block;
 }
 
-#header ul, #header li {
+header ul, header li {
     margin: 0;
     padding: 0;
 }
 
-#header nav ul li {
+header nav ul li {
     float: none;
     font-size: 1.2rem;
     margin-left: 0;
     margin: 0 0 10px 0;
 }
 
+    a.image-title {
+        display: block;
+        margin: .5em 0 1em;
+    }
+
 @media only screen and (min-width: 960px)  {
     body {
         margin: 50px;
-        font-family: 'Vollkorn', serif;
-        font-weight: 500;
-        background: #fff;
     }
 
     #container {
@@ -145,9 +150,5 @@ body {
         padding: 15px;
         font-size: 12px;
         text-align: center;
-    }
-
-    .image-title {
-        margin: .5em 0 1em;
     }
 }
