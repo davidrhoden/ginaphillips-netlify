@@ -4,8 +4,19 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const slugify = require("slugify");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginSEO = require("eleventy-plugin-seo");
+
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Gina Phillips: Crow Valley",
+    description: "Paintings by Gina Phillips from the 2018 show Crow Valley at Jonathan Ferrara Gallery, New Orleans.",
+    url: "https://ginaphillips.net",
+    author: "Gina Phillips",
+    twitter: "ginarphillips",
+    image: "/static/img/paintings/CrowValley.jpg"
+  });
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
